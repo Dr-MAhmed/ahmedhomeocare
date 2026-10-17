@@ -1,11 +1,24 @@
-# Ahmed Homeocare — website starter
+# Ahmed Homeocare — website
 
-Fresh, bilingual English/Urdu starter for Ahmed Homeopathic Clinic. Built with Next.js, TypeScript, React, Lucide and pnpm. The first version is static-export friendly for low-cost hosting.
+Bilingual English/Urdu information website for Ahmed Homeopathic Clinic in Faisalabad. Built with Next.js, TypeScript, React, Lucide, and pnpm. Configured for static export and low-cost hosting.
+
+## Live website
+- Production: https://ahmedhomeocare.vercel.app/
+- Health library: https://ahmedhomeocare.vercel.app/resources/
+- FAQs: https://ahmedhomeocare.vercel.app/faq/
+- Privacy notice: https://ahmedhomeocare.vercel.app/privacy/
+
+## Included
+- Responsive clinic homepage with English/Urdu toggle.
+- Clinic contact link using WhatsApp number configured by the clinic: +92 303 5577306.
+- Clinic hours and general area listing, with a reminder to confirm the exact address before travelling.
+- Bilingual health education page, FAQ page, and privacy notice.
+- Medical safety disclaimer, sitemap, and robots metadata route.
+- No paid analytics, appointment system, patient database, or external video service is required.
 
 ## Requirements
-- Node.js 22 LTS or newer supported LTS
+- Node.js 22 LTS or another Next.js-supported LTS release
 - pnpm 10+
-- Git
 
 ## Run locally
 ```bash
@@ -18,23 +31,18 @@ Open http://localhost:3000.
 ```bash
 pnpm build
 ```
-The static website is generated into `out/`.
+The Next.js static export configuration in `next.config.ts` writes the deployable site to `out/`.
 
-## Before publishing
-1. Verify the clinic's official contact number, WhatsApp number, address, hours and doctor credentials.
-2. Replace the placeholder WhatsApp number in `app/page.tsx`.
-3. Add only real doctor photos and videos, with consent for patient testimonials.
-4. Review all medical content for accuracy and local legal/advertising requirements. Do not promise guaranteed cures or advise delaying evidence-based care.
-5. Configure the real domain after purchasing it; `ahmedhomeocare` is the chosen brand identifier, not a confirmed domain registration.
+## Before treating the site as final
+The website code is published, but the clinic must still verify factual details that cannot be established from the code:
+1. Confirm the exact street address and whether the listed hours are still correct.
+2. Verify both practitioners' qualifications, registration details, and experience statements before publishing them as verified credentials. The experience figures currently come from the clinic's supplied information.
+3. Replace illustrated practitioner portraits with genuine approved photos if desired. Do not use generated or stock portraits as if they depict the practitioners.
+4. Add only reviewed educational videos. Publish patient testimonials only with appropriate informed consent and privacy safeguards.
+5. Review the privacy notice and medical content against applicable local requirements before adding forms, analytics, patient records, or other data collection.
+6. The current live URL is a Vercel subdomain. Set a custom domain only after it has actually been registered and connected.
 
-## GitHub
-Create an empty repository named `ahmedhomeocare`, then:
-```bash
-git init
-git add .
-git commit -m "Initial Ahmed Homeocare website"
-git branch -M main
-git remote add origin https://github.com/Dr-MAhmed/ahmedhomeocare.git
-git push -u origin main
-```
-If your GitHub username differs, change the remote URL. Do not create a README/license/gitignore on GitHub if you plan to push this existing starter as the first commit.
+The site does not promise cures and should not be used to delay evidence-based or urgent medical care.
+
+## Repository
+https://github.com/Dr-MAhmed/ahmedhomeocare
