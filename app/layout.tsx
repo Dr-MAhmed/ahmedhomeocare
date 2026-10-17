@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Ahmed Homeopathic Clinic | Thoughtful, Personal Care",
   description:
     "Meet the doctors at Ahmed Homeopathic Clinic in Faisalabad, explore educational resources, and contact the clinic for appointment information.",
-  metadataBase: new URL("https://ahmedhomeocare.com"),
+  metadataBase: new URL("https://ahmedhomeocare.vercel.app"),
   openGraph: {
     title: "Ahmed Homeopathic Clinic",
     description: "Thoughtful, personal care. Clear information. A conversation that starts with listening.",
