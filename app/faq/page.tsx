@@ -12,7 +12,7 @@ const copy = {
     items: [
       ["What are the clinic hours?", "Winter hours: 6:00 PM–9:00 PM. Summer hours: 7:00 PM–10:00 PM. The clinic is open Monday to Saturday and closed on Sunday. From January 2027, the clinic will also open in the morning; morning timings will be announced soon. Please message the clinic to confirm availability before travelling."],
       ["How do I ask about an appointment?", "Use the WhatsApp contact button on this website to ask about availability and visit details. Please confirm the exact address and appointment time directly with the clinic."],
-      ["Where is the clinic located?", "The current listing says Saddar Bazar / Mansoorabad, Faisalabad, Pakistan. This is a general area, not a verified street address, so please confirm the exact location before setting out."],
+      ["Where is the clinic located?", "Ahmed Homeopathic Clinic is listed on Google Maps in Faisalabad, Pakistan. Use the Google Maps link on our homepage to view the location and get directions."],
       ["What should I bring to a consultation?", "You may wish to bring a list of symptoms, current medicines and supplements, allergies, and relevant test results. Share your complete treatment history with your qualified healthcare professionals."],
       ["Can this website diagnose a condition or recommend treatment?", "No. Website content is general education only and cannot assess your individual health. Please consult a qualified healthcare professional for personal medical advice."],
       ["Is homeopathy a replacement for conventional medical care?", "No. Reliable scientific evidence supporting homeopathy for treating health conditions is limited. Do not stop prescribed medicines, delay recommended care, or avoid urgent medical attention because of information on this website."],
@@ -27,7 +27,7 @@ const copy = {
     items: [
       ["کلینک کے اوقات کیا ہیں؟", "سردیوں میں اوقات شام 6 سے رات 9 بجے تک ہیں، جبکہ گرمیوں میں شام 7 سے رات 10 بجے تک ہیں۔ کلینک پیر سے ہفتہ کھلا اور اتوار کو بند ہوتا ہے۔ جنوری 2027 سے کلینک صبح کے وقت بھی کھلے گا؛ صبح کے اوقات کا اعلان بعد میں کیا جائے گا۔ سفر سے پہلے واٹس ایپ پر دستیابی کی تصدیق کریں۔"],
       ["اپائنٹمنٹ کے بارے میں کیسے پوچھوں؟", "دستیابی اور دورے کی تفصیلات پوچھنے کے لیے ویب سائٹ پر واٹس ایپ بٹن استعمال کریں۔ وقت اور مکمل پتہ براہِ راست کلینک سے ضرور کنفرم کریں۔"],
-      ["کلینک کہاں واقع ہے؟", "موجودہ معلومات میں صدر بازار / منصورآباد، فیصل آباد درج ہے۔ یہ عمومی علاقہ ہے، تصدیق شدہ مکمل پتہ نہیں؛ روانگی سے پہلے درست مقام معلوم کر لیں۔"],
+      ["کلینک کہاں واقع ہے؟", "احمد ہومیوپیتھک کلینک گوگل میپس پر فیصل آباد، پاکستان میں درج ہے۔ مقام دیکھنے اور راستہ معلوم کرنے کے لیے مرکزی صفحے پر گوگل میپس کا لنک استعمال کریں۔"],
       ["معائنے کے لیے کیا ساتھ لاؤں؟", "آپ علامات، استعمال ہونے والی ادویات اور سپلیمنٹس، الرجی اور متعلقہ ٹیسٹ رپورٹس کی فہرست ساتھ لا سکتے ہیں۔ اپنی مکمل طبی تاریخ مستند طبی ماہرین کو بتائیں۔"],
       ["کیا ویب سائٹ بیماری کی تشخیص یا علاج تجویز کرتی ہے؟", "نہیں۔ ویب سائٹ کا مواد صرف عمومی آگاہی کے لیے ہے اور آپ کی انفرادی صحت کا جائزہ نہیں لے سکتا۔ ذاتی طبی مشورے کے لیے مستند طبی ماہر سے رجوع کریں۔"],
       ["کیا ہومیوپیتھی روایتی طبی علاج کا متبادل ہے؟", "نہیں۔ بیماریوں کے علاج میں ہومیوپیتھی کی افادیت کے حق میں قابلِ اعتماد سائنسی شواہد محدود ہیں۔ ویب سائٹ کی معلومات کی وجہ سے تجویز کردہ دوا بند نہ کریں، ضروری علاج میں تاخیر نہ کریں اور فوری طبی مدد سے گریز نہ کریں۔"],
