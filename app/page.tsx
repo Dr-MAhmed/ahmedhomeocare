@@ -146,7 +146,42 @@ export default function HomePage() {
         <Link className="library-card library-stories" href="/resources/#experiences"><div className="library-visual"><div className="quote-mark">“</div><div className="quote-lines"><span/><span/><span/></div><div className="quote-people"><i/><i/><i/></div><span className="story-heart"><HeartHandshake size={19}/></span></div><div className="library-card-copy"><span className="library-tag">SHARED WITH PERMISSION</span><h3>{t.stories}</h3><p>{t.storiesText}</p><span className="card-arrow"><ArrowRight size={17}/></span></div></Link>
       </div></section>
 
-      <section className="visit-section" id="visit"><div className="wrap visit-wrap"><div className="visit-copy"><div className="eyebrow eyebrow-light"><span className="eyebrow-line" />{t.visitLabel}</div><h2>{t.visitTitle}</h2><p>{t.visitIntro}</p><a className="button button-cream" href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle size={17}/>{t.contact}<ArrowRight size={15}/></a><span className="visit-small"><ShieldCheck size={15}/> We’ll help you confirm the details before you visit.</span></div><div className="visit-details-grid"><div className="visit-detail-column"><div className="detail-card"><div className="detail-icon"><Clock3 size={19}/></div><div><h3>{t.hoursLabel}</h3><p>{t.hours}</p><span>{t.sunday}</span></div></div><div style={{ padding: "20px 22px", borderRadius: 16, background: "#e8f0df", border: "1px solid #b8cda9", color: "#18372f" }}><p style={{ margin: "0 0 6px", fontWeight: 800, fontSize: 17 }}>☀️ {t.morningNoticeTitle}</p><p style={{ margin: 0, lineHeight: 1.7 }}>{t.morningNotice}</p></div></div><div className="visit-detail-column"><div className="detail-card"><div className="detail-icon"><MapPin size={19}/></div><div><h3>{t.addressLabel}</h3><p>{t.address}</p><span>{t.addressNote}</span></div></div><div style={{ padding: 18, background: "#fff", border: "1px solid #e2e7df", borderRadius: 16 }}><h3 style={{ margin: "0 0 12px", color: "#18372f" }}>{t.mapLabel}</h3><div style={{ position: "relative", width: "100%", paddingBottom: "min(75%, 450px)", height: 0, overflow: "hidden", borderRadius: 12 }}><iframe title="Ahmed Homeopathic Clinic location on Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.393141428716!2d73.11073377519772!3d31.43084207425511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39226972dc47be39%3A0x933b62ae47f3845f!2sAhmed%20Homeopathic%20Clinic!5e0!3m2!1sen!2s!4v1792246353478!5m2!1sen!2s" width="600" height="450" style={{ border: 0, position: "absolute", inset: 0, width: "100%", height: "100%" }} allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin" /></div><a href="https://www.google.com/maps/search/?api=1&query=Ahmed%20Homeopathic%20Clinic%2C%20Faisalabad" target="_blank" rel="noreferrer" style={{ display: "inline-flex", marginTop: 12, color: "#315c43", fontWeight: 700 }}>{t.mapLabel} ↗</a></div></div></div></section>
+      <section className="visit-section" id="visit">
+        <div className="wrap visit-wrap">
+          <div>
+            <div className="visit-copy">
+              <div className="eyebrow eyebrow-light"><span className="eyebrow-line" />{t.visitLabel}</div>
+              <h2>{t.visitTitle}</h2>
+              <p>{t.visitIntro}</p>
+              <a className="button button-cream" href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle size={17}/>{t.contact}<ArrowRight size={15}/></a>
+              <span className="visit-small"><ShieldCheck size={15}/> We’ll help you confirm the details before you visit.</span>
+            </div>
+            <div className="visit-detail-column" style={{ marginTop: 28 }}>
+              <div className="detail-card">
+                <div className="detail-icon"><Clock3 size={19}/></div>
+                <div><h3>{t.hoursLabel}</h3><p>{t.hours}</p><span>{t.sunday}</span></div>
+              </div>
+              <div className="detail-card" style={{ marginTop: 16 }}>
+                <div className="detail-icon"><MapPin size={19}/></div>
+                <div><h3>{t.addressLabel}</h3><p>{t.address}</p><span>{t.addressNote}</span></div>
+              </div>
+            </div>
+          </div>
+          <div className="visit-detail-column">
+            <div style={{ padding: "20px 22px", borderRadius: 16, background: "#e8f0df", border: "1px solid #b8cda9", color: "#18372f" }}>
+              <p style={{ margin: "0 0 6px", fontWeight: 800, fontSize: 17 }}>☀️ {t.morningNoticeTitle}</p>
+              <p style={{ margin: 0, lineHeight: 1.7 }}>{t.morningNotice}</p>
+            </div>
+            <div style={{ marginTop: 18, padding: 18, background: "#fff", border: "1px solid #e2e7df", borderRadius: 16 }}>
+              <h3 style={{ margin: "0 0 12px", color: "#18372f" }}>{t.mapLabel}</h3>
+              <div style={{ position: "relative", width: "100%", paddingBottom: "min(75%, 450px)", height: 0, overflow: "hidden", borderRadius: 12 }}>
+                <iframe title="Ahmed Homeopathic Clinic location on Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.393141428716!2d73.11073377519772!3d31.43084207425511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39226972dc47be39%3A0x933b62ae47f3845f!2sAhmed%20Homeopathic%20Clinic!5e0!3m2!1sen!2s!4v1792246353478!5m2!1sen!2s" width="600" height="450" style={{ border: 0, position: "absolute", inset: 0, width: "100%", height: "100%" }} allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin" />
+              </div>
+              <a href="https://www.google.com/maps/search/?api=1&query=Ahmed%20Homeopathic%20Clinic%2C%20Faisalabad" target="_blank" rel="noreferrer" style={{ display: "inline-flex", marginTop: 12, color: "#315c43", fontWeight: 700 }}>{t.mapLabel} ↗</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer className="footer"><div className="wrap"><div className="footer-top"><a href="#home" className="brand brand-footer"><span className="brand-mark"><Leaf size={23}/></span><span className="brand-copy"><strong>ahmed<span>homeocare</span></strong><small>AHMED HOMEOPATHIC CLINIC</small></span></a><p>{t.footer}</p><a className="back-top" href="#home">Back to top <ArrowRight size={15}/></a></div><div className="footer-disclaimer">{t.disclaimer}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ahmed Homeopathic Clinic</span><span className="footer-links"><Link href="/faq/">FAQs</Link><Link href="/privacy/">Privacy</Link><Link href="/resources/">Health library</Link></span><span>Made with care in Faisalabad, Pakistan</span></div></div></footer>
     </main>
