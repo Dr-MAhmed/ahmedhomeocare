@@ -83,7 +83,7 @@ const copy = {
   },
 } as const;
 
-const WHATSAPP_NUMBER = "92XXXXXXXXXX"; // Replace with the clinic's verified number (country code, digits only).
+const WHATSAPP_NUMBER = "923035577306"; // Replace with the clinic's verified number (country code, digits only).
 
 export default function HomePage() {
   const [lang, setLang] = useState<Language>("en");
