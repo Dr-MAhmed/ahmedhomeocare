@@ -93,7 +93,7 @@ export default function HomePage() {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(rtl ? "السلام علیکم، میں اپائنٹمنٹ کے بارے میں معلومات چاہتا/چاہتی ہوں۔" : "Hello, I would like to ask about an appointment.")}`;
 
   return (
-    <main dir={rtl ? "rtl" : "ltr"} className={rtl ? "site urdu" : "site"}>
+    <main lang={rtl ? "ur" : "en"} dir={rtl ? "rtl" : "ltr"} className={rtl ? "site urdu" : "site"}>
       <div className="announcement"><span className="announcement-dot" />{t.eyebrow}<span className="announcement-right"><MapPin size={14} /> Faisalabad, Pakistan</span></div>
       <header className="header wrap">
         <a href="#home" className="brand" aria-label="Ahmed Homeopathic Clinic home">
@@ -147,7 +147,7 @@ export default function HomePage() {
 
       <section className="visit-section" id="visit"><div className="wrap visit-wrap"><div className="visit-copy"><div className="eyebrow eyebrow-light"><span className="eyebrow-line" />{t.visitLabel}</div><h2>{t.visitTitle}</h2><p>{t.visitIntro}</p><a className="button button-cream" href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle size={17}/>{t.contact}<ArrowRight size={15}/></a><span className="visit-small"><ShieldCheck size={15}/> We’ll help you confirm the details before you visit.</span></div><div className="visit-details"><div className="detail-card"><div className="detail-icon"><Clock3 size={19}/></div><div><h3>{t.hoursLabel}</h3><p>{t.hours}</p><span>{t.sunday}</span></div></div><div className="detail-card"><div className="detail-icon"><MapPin size={19}/></div><div><h3>{t.addressLabel}</h3><p>{t.address}</p><span>{t.addressNote}</span></div></div></div></div></section>
 
-      <footer className="footer"><div className="wrap"><div className="footer-top"><a href="#home" className="brand brand-footer"><span className="brand-mark"><Leaf size={23}/></span><span className="brand-copy"><strong>ahmed<span>homeocare</span></strong><small>AHMED HOMEOPATHIC CLINIC</small></span></a><p>{t.footer}</p><a className="back-top" href="#home">Back to top <ArrowRight size={15}/></a></div><div className="footer-disclaimer">{t.disclaimer}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ahmed Homeopathic Clinic</span><span>Made with care in Faisalabad, Pakistan</span></div></div></footer>
+      <footer className="footer"><div className="wrap"><div className="footer-top"><a href="#home" className="brand brand-footer"><span className="brand-mark"><Leaf size={23}/></span><span className="brand-copy"><strong>ahmed<span>homeocare</span></strong><small>AHMED HOMEOPATHIC CLINIC</small></span></a><p>{t.footer}</p><a className="back-top" href="#home">Back to top <ArrowRight size={15}/></a></div><div className="footer-disclaimer">{t.disclaimer}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} Ahmed Homeopathic Clinic</span><span className="footer-links"><a href="/faq/">FAQs</a><a href="/privacy/">Privacy</a><a href="/resources/">Health library</a></span><span>Made with care in Faisalabad, Pakistan</span></div></div></footer>
     </main>
   );
 }
