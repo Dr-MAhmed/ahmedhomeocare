@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" preserveAspectRatio="xMidYMid slice">
+<style>
+.fl{animation:fl 6s ease-in-out infinite}.fl2{animation:fl 8s ease-in-out infinite;animation-delay:-3s}
+.sw{transform-box:fill-box;transform-origin:50% 100%;animation:sw 5s ease-in-out infinite}.sw2{animation-delay:-2.5s}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+</style>
+<rect width="560" height="420" fill="#edf1e8"/>
+<circle cx="280" cy="230" r="190" fill="none" stroke="#436750" stroke-opacity=".15"/>
+<circle cx="280" cy="230" r="140" fill="none" stroke="#436750" stroke-opacity=".15"/>
+<circle cx="280" cy="210" r="105" fill="#dfe9df"/>
+<g class="sw"><path d="M85 305 Q80 250 90 195" stroke="#64866a" stroke-width="3" fill="none"/>
+<ellipse cx="72" cy="230" rx="9" ry="20" fill="#64866a" transform="rotate(-35 72 230)"/>
+<ellipse cx="104" cy="215" rx="9" ry="20" fill="#89a486" transform="rotate(35 104 215)"/>
+<ellipse cx="70" cy="270" rx="9" ry="19" fill="#89a486" transform="rotate(-40 70 270)"/>
+<ellipse cx="102" cy="255" rx="9" ry="19" fill="#64866a" transform="rotate(40 102 255)"/>
+<ellipse cx="90" cy="190" rx="8" ry="18" fill="#64866a"/></g>
+<g class="sw sw2"><path d="M480 305 Q486 260 476 215" stroke="#64866a" stroke-width="3" fill="none"/>
+<ellipse cx="460" cy="250" rx="8" ry="18" fill="#89a486" transform="rotate(-35 460 250)"/>
+<ellipse cx="494" cy="240" rx="8" ry="18" fill="#64866a" transform="rotate(35 494 240)"/>
+<ellipse cx="462" cy="285" rx="8" ry="17" fill="#64866a" transform="rotate(-40 462 285)"/>
+<ellipse cx="492" cy="272" rx="8" ry="17" fill="#89a486" transform="rotate(40 492 272)"/>
+<ellipse cx="477" cy="208" rx="7" ry="16" fill="#89a486"/></g>
+<rect x="60" y="300" width="440" height="14" rx="5" fill="#bd9d73"/>
+<rect x="60" y="311" width="440" height="5" rx="2" fill="#a98860"/>
+<g>
+<rect x="108" y="238" width="48" height="62" rx="10" fill="#6f9a86"/>
+<rect x="122" y="224" width="20" height="16" fill="#5d8573"/>
+<rect x="118" y="218" width="28" height="9" rx="3" fill="#fffefa"/>
+<rect x="123" y="188" width="18" height="32" rx="9" fill="#20352f"/>
+<rect x="116" y="256" width="32" height="26" rx="3" fill="#fffefa"/>
+<rect x="121" y="263" width="14" height="3" fill="#a9b99b"/><rect x="121" y="270" width="22" height="3" fill="#dfe9df"/>
+</g>
+<g>
+<rect x="185" y="190" width="70" height="110" rx="12" fill="#b9854a"/>
+<rect x="208" y="165" width="24" height="28" fill="#a47439"/>
+<rect x="203" y="143" width="34" height="26" rx="5" fill="#fffefa"/>
+<rect x="193" y="222" width="54" height="50" rx="4" fill="#fffefa"/>
+<rect x="200" y="231" width="22" height="4" fill="#64866a"/><rect x="200" y="240" width="38" height="3" fill="#dfe9df"/><rect x="200" y="248" width="30" height="3" fill="#dfe9df"/><rect x="200" y="256" width="34" height="3" fill="#dfe9df"/>
+<rect x="191" y="198" width="6" height="86" rx="3" fill="#fff" fill-opacity=".25"/>
+</g>
+<g>
+<rect x="272" y="226" width="56" height="74" rx="11" fill="#7fae98"/>
+<rect x="290" y="206" width="20" height="22" fill="#6c9b85"/>
+<rect x="285" y="190" width="30" height="20" rx="4" fill="#fffefa"/>
+<rect x="279" y="248" width="42" height="34" rx="3" fill="#fffefa"/>
+<rect x="285" y="256" width="16" height="3" fill="#64866a"/><rect x="285" y="264" width="30" height="3" fill="#dfe9df"/>
+<rect x="277" y="232" width="5" height="58" rx="2" fill="#fff" fill-opacity=".3"/>
+</g>
+<path d="M342 266 H438 Q438 302 390 302 Q342 302 342 266 Z" fill="#fffefa" stroke="#d3dacb"/>
+<rect x="364" y="300" width="52" height="8" rx="3" fill="#e3dfc9"/>
+<line x1="384" y1="268" x2="424" y2="208" stroke="#c4a875" stroke-width="14" stroke-linecap="round"/>
+<circle cx="336" cy="294" r="6" fill="#fffefa" stroke="#d3dacb"/><circle cx="450" cy="294" r="6" fill="#fffefa" stroke="#d3dacb"/><circle cx="460" cy="298" r="5" fill="#fffefa" stroke="#d3dacb"/><circle cx="168" cy="294" r="5" fill="#fffefa" stroke="#d3dacb"/><circle cx="262" cy="296" r="4" fill="#fffefa" stroke="#d3dacb"/>
+<g class="fl"><circle cx="170" cy="130" r="6" fill="#fffefa" stroke="#d3dacb"/><circle cx="390" cy="120" r="5" fill="#fffefa" stroke="#d3dacb"/></g>
+<g class="fl2"><circle cx="300" cy="100" r="4" fill="#e5d4a9"/><circle cx="130" cy="160" r="4" fill="#e5d4a9"/><circle cx="440" cy="165" r="6" fill="#fffefa" stroke="#d3dacb"/></g>
+</svg>

@@ -121,7 +121,7 @@ export default function HomePage() {
           <div className="hero-proof"><div className="proof-icon"><HeartHandshake size={19} /></div><div><strong>{t.trust1}</strong><span>{t.note}</span></div></div>
         </div>
         <div className="hero-art" aria-label="Homeopathic remedies, herbs, and a calm natural care setting">
-          <img src="/homeopathy-hero.webp" alt="Homeopathic remedies, herbal botanicals, and natural care setting" className="hero-homeopathy-image" />
+          <img src="/homeopathy-hero.svg" alt="Homeopathic remedies, herbal botanicals, and natural care setting" className="hero-homeopathy-image" />
           <div className="hero-image-shade" />
           <div className="art-card"><div className="art-card-icon"><Leaf size={19} /></div><div><strong>Personalised care</strong><span>Thoughtful, patient-centred approach</span></div><Check size={17} className="art-check" /></div>
         </div>
