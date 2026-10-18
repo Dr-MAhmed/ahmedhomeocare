@@ -84,7 +84,7 @@ const copy = {
   },
 } as const;
 
-const WHATSAPP_NUMBER = "923035577306"; // Replace with the clinic's verified number (country code, digits only).
+const WHATSAPP_NUMBER = "923035577306";
 
 export default function HomePage() {
   const [lang, setLang] = useState<Language>("en");
@@ -120,13 +120,10 @@ export default function HomePage() {
           <div className="hero-actions"><a className="button button-green" href="#doctors">{t.primary}<ArrowRight size={16} /></a><a className="text-link" href="#library">{t.secondary}<ArrowDownRight size={16} /></a></div>
           <div className="hero-proof"><div className="proof-icon"><HeartHandshake size={19} /></div><div><strong>{t.trust1}</strong><span>{t.note}</span></div></div>
         </div>
-        <div className="hero-art" aria-label="Illustration representing a calm, welcoming healthcare space">
-          <div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" />
-          <div className="art-window"><div className="window-sun" /><div className="window-pane pane-one" /><div className="window-pane pane-two" /><div className="window-sill" /></div>
-          <div className="art-plant plant-back"><span /><i /><b /></div><div className="art-table"><div className="table-top" /><div className="table-leg" /></div>
-          <div className="art-vase"><div className="vase-stem stem-one" /><div className="vase-stem stem-two" /><div className="vase-leaf leaf-one" /><div className="vase-leaf leaf-two" /><div className="vase-body" /></div>
-          <div className="art-card"><div className="art-card-icon"><ShieldCheck size={19} /></div><div><strong>{t.trust2}</strong><span>{t.trust3}</span></div><Check size={17} className="art-check" /></div>
-          <div className="art-caption"><Sparkles size={14} /> A thoughtful approach to every conversation</div>
+        <div className="hero-art" aria-label="Homeopathic remedies, herbs, and a calm natural care setting">
+          <img src="/homeopathy-hero.webp" alt="Homeopathic remedies, herbal botanicals, and natural care setting" className="hero-homeopathy-image" />
+          <div className="hero-image-shade" />
+          <div className="art-card"><div className="art-card-icon"><Leaf size={19} /></div><div><strong>Personalised care</strong><span>Thoughtful, patient-centred approach</span></div><Check size={17} className="art-check" /></div>
         </div>
       </section>
       <div className="trust-strip"><div className="wrap trust-inner"><span><Check size={15} />{t.trust1}</span><span><Check size={15} />{t.trust2}</span><span><Check size={15} />{t.trust3}</span></div></div>
